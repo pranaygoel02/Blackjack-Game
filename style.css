@@ -1,0 +1,76 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url("bg.jpg");
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    max-height: 100vh;
+    display: flexbox;
+}
+
+#logo{
+    width: 10%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: goldenrod;
+}
+
+#message-el{
+    color: white;
+    font-style: italic;
+}
+
+.btn{
+    background-color: goldenrod;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 30px;
+    color: #05552e;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    display: inline-block;      
+}
+
+#startgame-btn{
+    margin-top: 5px;
+}
+
+#new-btns{
+    visibility: hidden;
+}
+
+#winner{
+    color: goldenrod;
+}
+
+.names{
+    color: goldenrod;
+}
+
+.sum{
+    visibility: hidden;
+    box-sizing: border-box;
+    border: groove;
+    border-color: goldenrod;
+    margin: 0px 710px;
+    padding: 5px 0px;
+    border-radius: 20px;
+    justify-content: middle;
+}
+
+#dealer-deck, #user-deck{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#dealer-deck img, #user-deck img {
+    margin: 1%;
+    width: 150px;
+}
