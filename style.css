@@ -5,9 +5,7 @@ body{
     color: white;
     font-weight: bold;
     max-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flexbox;
 }
 
 #logo{
@@ -24,9 +22,7 @@ h1{
     color: white;
     font-style: italic;
 }
-#rules{
-    text-align: left;
-}
+
 .btn{
     background-color: goldenrod;
     border: none;
@@ -47,15 +43,13 @@ h1{
     visibility: hidden;
 }
 
-.names,#winner{
+#winner{
     color: goldenrod;
-    text-align: center;
 }
 
-/*.names{
+.names{
     color: goldenrod;
-    text-align: center;
-}*/
+}
 
 .sum{
     visibility: hidden;
@@ -66,7 +60,6 @@ h1{
     padding: 5px 0px;
     border-radius: 20px;
     justify-content: middle;
-    text-align: center;
 }
 
 #dealer-deck, #user-deck{
