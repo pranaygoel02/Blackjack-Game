@@ -22,7 +22,9 @@ h1{
     color: white;
     font-style: italic;
 }
-
+#rules{
+    text-align: left;
+}
 .btn{
     background-color: goldenrod;
     border: none;
